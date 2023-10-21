@@ -1,0 +1,321 @@
+@charset "UTF-8";
+
+*{
+    padding: 0;
+    margin: 0;
+}
+
+/* BODY */
+
+body::-webkit-scrollbar {
+    display: none;
+}
+
+body{
+    background-image: url(imagem/background.png);
+    background-size: cover;
+    margin: 0px;
+    background-color: rgba(0, 0, 0, 0.3);
+    background-blend-mode: color;
+    
+}
+
+/* MAIN */
+
+#showcase{
+  overflow: hidden;
+}
+
+#showcase .showcase-header{
+display: flex;
+
+}
+
+#showcase .showcase-header img {
+    width: 280px;
+    height: auto;
+    display: flex;
+    margin: auto;
+    padding-left: 15%;
+}
+
+#showcase .showcase-header p{
+   font-family: Arial, Helvetica, sans-serif;
+   font-weight: bold;
+   font-size: 0.8em;
+   margin-left: -50px;
+}
+
+#showcase .showcase-header i, p {
+    color: rgba(255, 255, 255, 0.733);
+    padding: 40px;
+    margin: 0 -20px;
+    font-size: 1em;
+    
+}
+
+
+
+#showcase .showcase-header i{
+    font-size: 1.4em;
+    margin-top: -5px;
+}
+
+#showcase .showcase-header .showcase-language{
+    display: flex;
+    cursor: pointer;
+    margin: 10px 10px;
+    padding: -20px;
+    cursor: pointer;
+    width: 14.8em;
+    height: 2em;
+    
+}
+
+.showcase-language:hover p,.showcase-language:hover i{
+    opacity: 0.8;
+    position: relative;
+    top: -1px;
+    text-shadow: 1px 1px 1px black;
+    transition: 2s;
+}
+
+#showcase .showcase-main {
+    display: flex;
+    margin: auto;
+    justify-content: center;
+  
+}
+
+#showcase .showcase-main h1 {
+    margin-top: 2em;
+    margin-bottom: 0.8em;
+    text-align: center;
+    text-transform: uppercase;
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 2.8em;
+    text-shadow: 1px 1px 3px black;
+}
+
+#showcase button.showcase-button{
+    display: flex; 
+    margin: auto;
+    background-color: rgb(219, 74, 21);
+    border: 5px solid white;
+    margin-bottom: 1em;
+    padding: 0 30px 0 30px;
+}
+
+#showcase button.showcase-button p{
+    font-size: 1.4em;
+    color: white;
+    text-transform: uppercase;
+    font-family:  sans-serif;
+    font-weight: bolder;
+    padding: 15px 35px;
+  
+
+}
+
+#showcase button.showcase-button:hover{
+    border-color:  rgb(219, 74, 21);
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+
+
+#showcase .showcase-img{
+    display: inline-block;
+    position: relative;
+    left: 30vh;
+}
+
+#showcase .showcase-img img {
+    width: 140px;
+    height: auto;
+    margin: 1.2vw;
+    
+}
+
+/* logo pre-footer */
+
+#showcase .pre-footer {
+    display: flex;
+    justify-content: end;
+    position: relative;
+    top: -7em;
+   
+}
+
+ #showcase .pre-footer .logo img{
+    
+    width: 250px;
+    height: 100px;
+    opacity: 0.5;
+    cursor: pointer;
+}
+
+#showcase .pre-footer .logo img:hover{
+    opacity: 100;
+    transition: 0.5s;
+}
+
+#showcase .img-info{
+    display: flex;
+    justify-content: center;
+    margin: -40px 0;
+    position: relative;
+    left: -10px;
+}
+
+#showcase .img-info p{
+    text-align: center;
+    margin: 0 2px;
+    color: rgb(240, 190, 54);
+    font-family: sans-serif;
+    font-weight: bold;
+    text-shadow: 1px 1px 10px rgb(0, 0, 0);
+}
+
+/* footer */
+
+#footer  {
+    background-color: rgba(0, 0, 0, 0.2);
+}
+
+
+#footer .footer-info{
+   
+    display: flex;
+    
+}
+
+#footer .footer-info img{
+    width: 180px;
+    padding: 20px 20px;
+    opacity: 0.5;
+}
+
+#footer .footer-info ul{
+    
+list-style: none;
+color: #ffffff;
+opacity: 0.5;
+font-family: sans-serif;
+margin: 20px;
+font-weight: bold;
+text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.568);
+}
+
+#footer .footer-info ul li{
+    display: inline;
+    margin:  0 10px;
+    font-size: 0.8em;
+    cursor: pointer;
+    }
+
+#footer .footer-info ul li:hover{
+    position: relative;
+    top: -1px;
+    transition: 0.5s;
+}
+
+#footer .footer-info img{
+    cursor: pointer;
+}
+
+#footer .footer-info img:hover{
+    opacity: 100;
+    transition: 0.5s;
+}
+
+/*Footer lincese*/
+
+#footer .footer-lincese p{
+    
+   
+    opacity: 0.5;
+    padding: 5px 10px;
+    margin-left: 10px;
+    font-size: 0.6em;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    max-width: 900px;
+}
+
+
+
+#footer .age img{
+   
+    position: relative;
+    top: -7em;
+    left: 70em;
+   width: 60px;
+    margin-bottom: -60px;
+    
+}
+
+/*Autor*/
+
+#footer .autor{
+    display: flex;
+   
+}
+
+#footer .autor img {
+    width: 40px;
+    height: 40px;
+    margin-left: 20px;
+    border-radius: 50%;
+    border: 1px solid #ffffff;
+    cursor: pointer;
+    margin-bottom: 20px;
+}
+
+#footer .autor img:hover{
+    position: relative;
+    height: 60px;
+    width: 60px;
+    padding: 0;
+    transition: 0.5s;
+}
+
+#footer .autor p {
+    padding: 5px 0;
+    margin: 10px 10px;
+    font-size: 0.7em;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+#footer .autor p > abbr{
+    text-decoration: none;
+}
+
+#footer .autor p:hover{
+    opacity: 100;
+    transition: 0.6s;
+}
+
+
+#footer .autor i {
+    margin: 10px 5px;
+    font-size: 1.5em;
+    color: white;
+    opacity: 0.5;
+    cursor: pointer;
+  
+}
+
+#footer .autor i:hover {
+    opacity: 100;
+    font-size: 1.8em;
+}
+
+
+
+
+
+
